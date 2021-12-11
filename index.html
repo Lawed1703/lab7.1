@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Небольшая сеть заведений быстрого питания в городе Минск.">
+    <meta name="keywords" content="шаурма, шаурмичная, шаурма рецепт, шаурма доставка, рецепт шаурмы, домашняя шаурма, грузинская кухня, ресторан грузинской кухни, чашушули, харчо, блюда грузии">
+    <link rel="stylesheet" href="style.css">
+    <link type="Image/x-icon" href="images/favicon.jpg" rel="icon">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="go_top.js"></script>
+
+
+    <title>Ресторан грузинской кухни Гемо</title>
+
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+         $("#nav").on("click","a", function (event) {
+             event.preventDefault();
+             var id  = $(this).attr('href'),
+                 top = $(id).offset().top;
+             $('body,html').animate({scrollTop: top}, 1500);
+         });
+     });
+     </script>
+     
+
+</head>
+<body>
+  
+    <header id="head">    
+    <div id="upper-header">
+        <div id="logo-container-wrapper">
+            <div id="logo-container">
+                <img src="images/logosml.png" alt="" width="70px" height="70px">
+            </div>
+            <h3>Ресторан "Гемо"</h3>
+        </div>
+        <nav id="nav">
+            <ul><!--
+                <--><li><a href="#emoblock">О нас</a></li><!--
+                --><li><a href="#">Галерея</a></li><!--
+                --><li><a href="#h2">Меню</a></li><!--
+                --><li><a href="#menu4">Акции</a></li><!--
+                --><li><a href="#foot">Контакты</a></li><!--
+                --><li><a href="#foot">Доставка</a></li><!--
+                --></ul>
+        </nav>
+    </div>
+    </header>
+    
+  <div class="content">
+    <div id="emoblock">
+      <div id="emotext"><p>
+        «Гемо» — ресторан, который наполнен домашним уютом и теплотой души каждого из его создателей. Рождение этого заведения сопряжено с дружескими отношениями грузинской и белорусской культур, что в итоге вылилось в концептуально новое для Беларуси предложение. История «Гемо» — это история двух братских народов, основанная на дружбе и взаимоуважении.</p>
+      </div>
+      </div>
+
+  <div class="menu">
+    <h2 id="h2">Меню</h1>
+    <h3 id="h3">Это стоит попробовать</h3>
+    <hr>
+    <p>
+    <div id="menu1">
+      <h3>Шаверма</h3>
+      <img src="images/ob4.jpg" width="150" height="100">
+      <hr>
+      <p>Салат айсберг, классический соус, свежие овощи, красный соус, куриное филе</p>
+      <button type="button" text="Заказать" hover-text="От 4,00р." class="btn"></button>
+    </div>
+    <div id="menu2">
+      <h3>Хачапури по Аджарски</h3>
+      <img src="images/ob2.jpg" width="150" height="100">
+      <hr>
+      <p>Мучная лепешка, сыр "Сулугуни", куриное яйцо</p>
+      <button type="button" text="Заказать" hover-text="От 7,00р." class="btn"></button>
+    </div>
+    </p>
+    <div id="menu3">
+      <h3>Кубдари</h3>
+      <img src="images/ob3.jpg" width="150" height="100">
+      <hr>
+      <p>Мучная лепешка, куриное филе, сыры "Сулугуни" и Чеддер</p>
+      <button type="button" text="Заказать" hover-text="От 12,00р." class="btn"></button>
+    </div>
+    <div id="menu4">
+      <h3>Шашлык</h3>
+      <img src="images/ob1.jpg" width="150" height="100">
+      <hr>
+      <p>Вкусное аппетитное мясо и овощи на мангале</p>
+      <button type="button" text="Заказать" hover-text="От 8,00р." class="btn"></button>
+    </div>
+  </div>
+
+  </div>
+  
+
+  <footer id="foot">
+    <div class="time">
+      <h3>Время работы</h3>
+      <p>Ресторан грузинской кухни "Гемо":</p>
+      <p>Пн-Пт: 10:00 - 22:00,</p>
+      <p>Сб-Вс: 10:00 - 21:00.</p>
+    </div>
+    
+    <div class="phone">
+      <p> &#9743; +375(33)655-33-46</p>
+    </div>
+    
+    <div class="adress">
+      <p>🏳 г. Минск, пр-т Независимости, 58а</p>
+      <p>🏳 г. Минск, ул. Тимирязева, 65</p>
+    </div>
+    
+    <div class="socseti">
+      <ul class="social-icons">
+        <li><a class="social-icon-vk" href="https://www.instagram.com/gemocafe/" title="..." target="_blank" rel="noopener"></a></li>
+        <li><a class="social-icon-telegram" href="https://www.instagram.com/gemocafe/ " title="..." target="_blank" rel="noopener"></a></li>
+        <li><a class="social-icon-youtube" href="https://www.instagram.com/gemocafe/" title="..." target="_blank" rel="noopener"></a></li>
+      </ul>
+    </div>
+  </footer>
+ 
+
+
+</body>
+</html>
